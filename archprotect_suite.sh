@@ -16,7 +16,7 @@ security applications, ArchProtect Suite empowers newcomers to secure their syst
 power users the flexibility to enhance their system’s defenses effortlessly. Built for both convenience and comprehensive 
 protection, ArchProtect Suite makes securing Arch Linux straightforward and highly effective for all users. Press CRTL + C to
 exit at anytime."
-#sleep 15s
+sleep 15s
 echo
 
 # List packages.
@@ -37,7 +37,7 @@ echo "Tools included are:
 - btop (System monitor.)
 - pkg-audit (Package vulnerability scanner.)
 "
-#sleep 15s
+sleep 15s
 echo
 
 # Extends timout for sudo command.
