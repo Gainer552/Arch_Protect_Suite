@@ -81,4 +81,6 @@ All features have been tested by a professional QA Tester to ensure smooth funct
 
 This script is designed for users who prefer straightforward security setup without the complexity—just one command to install all essential tools!
 
-Disclaimer: This ArchProtect Suite tool is provided as-is, without any warranties or guarantees of any kind, including but not limited to functionality, security, or compatibility. Use this tool at your own risk. The developer is not responsible for any data loss, damage to files, or other consequences that may arise from the use or misuse of this tool. Ensure that you have backups of any critical data before using the tool.
+**Disclaimer:** 
+
+This ArchProtect Suite tool is provided as-is, without any warranties or guarantees of any kind, including but not limited to functionality, security, or compatibility. Use this tool at your own risk. The developer is not responsible for any data loss, damage to files, or other consequences that may arise from the use or misuse of this tool. Ensure that you have backups of any critical data before using the tool.
