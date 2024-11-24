@@ -23,7 +23,6 @@ echo
 echo "Tools included are:
 
 - ufw (Firewall)
-- fail2ban (Brute force blocker.)
 - rkhunter (Rootkit scanner & removal tool.)
 - auditd (System call logger and file monitor.)
 - Lynis (System integrity monitor.)
@@ -81,9 +80,6 @@ sudo pacman -S cryptsetup
 echo
 
 sudo pacman -S gnupg
-echo
-
-sudo pacman -S firejail
 echo
 
 yay -S apparmor
