@@ -30,7 +30,6 @@ echo "Tools included are:
 - ClamAV (Antivirus)
 - cryptsetup (Full disk encryption tool.)
 - GnuPG (Email and file encryption tool).
-- Firejail (Application sandboxing tool).
 - AppArmor (Application permission controller.)
 - Tor (Network traffic anonymizer.)
 - OpenVAS (Network vulnerability scanner.)
@@ -59,9 +58,6 @@ echo
 echo "Installation of packages initiated."
 
 sudo pacman -S ufw
-echo
-
-sudo pacman -S fail2ban
 echo
 
 sudo pacman -S rkhunter
