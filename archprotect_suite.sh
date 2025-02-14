@@ -22,19 +22,18 @@ echo
 # List packages.
 echo "Tools included are:
 
-- ufw (Firewall)
-- rkhunter (Rootkit scanner & removal tool.)
-- auditd (System call logger and file monitor.)
-- Lynis (System integrity monitor.)
-- ClamAV (Antivirus)
-- cryptsetup (Full disk encryption tool.)
-- GnuPG (Email and file encryption tool).
-- AppArmor (Application permission controller.)
-- Tor (Network traffic anonymizer.)
-- OpenVAS (Network vulnerability scanner.)
-- btop (System monitor.)
-- pkg-audit (Package vulnerability scanner.)
-"
+• ufw - Firewall
+• rkhunter - Rootkit scanner & removal tool.
+• auditd - System call logger and file monitor.
+• Lynis - System integrity monitor.
+• ClamAV - Antivirus
+• cryptsetup - Full disk encryption tool.
+• GnuPG - Email and file encryption tool.
+• AppArmor - Application permission controller.
+• Tor - Network traffic anonymizer.
+• btop - System monitor.
+• pkg-audit - Package vulnerability scanner."
+
 sleep 15s
 echo
 
@@ -55,6 +54,7 @@ for i in {10..1}; do
 done
 echo
 echo "Installation of packages initiated."
+echo
 
 sudo pacman -S ufw
 echo
@@ -91,9 +91,6 @@ echo
 yay -S opensnitch
 echo
 
-yay -S openvas
-echo
-
 sudo pacman -S btop
 echo
 
@@ -103,8 +100,10 @@ echo
 echo "All tools have been installed! Please read the man pages, search on Google, or run [name of tool] --help to figure out
 how to configure the tools."
 echo
+sleep 15s
 echo "Use 'systemctl enable [service_name]' and 'systemctl start [service_name]' for applicable tools."
 echo
+sleep 15s
 
 read -p "Would you like to exit? (y/n): " $close
 if [[ "$close" == "y" || "$close" == "Y" ]]; then
