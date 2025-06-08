@@ -89,3 +89,5 @@ This script is designed for users who prefer straightforward security setup with
 **Disclaimer:** 
 
 This ArchProtect Suite tool is provided as-is, without any warranties or guarantees of any kind, including but not limited to functionality, security, or compatibility. Use this tool at your own risk. The developer is not responsible for any data loss, damage to files, or other consequences that may arise from the use or misuse of this tool. Ensure that you have backups of any critical data before using the tool.
+
+**Disclaimer:** This project is not affiliated with or endorsed by Arch Linux or the Arch Linux Project. “Arch Linux” is a registered trademark of Judd Vinet and the Arch Linux Project. This is an unofficial user-maintained toolkit built for the Arch community.
